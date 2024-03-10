@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+h2, h3, h4, h5, h6{ /* we are telling where the font, background and color on the html file be located */
+    font-family: Arial, Helvetica, sans-serif; /**/
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    background-size:contain;
+    background-color: darkgreen;/*the color of the backgroud of the headers*/
+    
+}
+
+body{
+    background-image: url("img_kingdom.jpeg");/*to insert an image as a background*/
+    background-repeat: no-repeat; /*to make it fit the page and not repeat the same image */
+  background-attachment: fixed;
+  background-position: center; /*where to position the image*/
+}
+    
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; /*what size want the fonts to be for the name for the animals */
+    font-weight: bolder; /*how dark we want the font to be */
+    color: white;
+    text-align: center;
+}
+
+body{
+    margin: 0; /*to make the whole page to have the right fit*/
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+   
+    margin-bottom: 100px; /*how we want to position the paragraphs and how add a border for them */
+    background-color: yellowgreen;
+    font-size: medium;
+}
+
